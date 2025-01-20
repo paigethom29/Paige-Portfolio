@@ -1,10 +1,18 @@
 :root {
   /* Global font, line-height, and colors */
+<<<<<<< HEAD
   font-family: 'Times New Roman', Times, serif
   line-height: 1.5;
   font-weight: 400;
   color: rgba(12, 43, 14, 0.87);
   background-color: #eceae0;
+=======
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+>>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
 }
 
 * {
@@ -37,8 +45,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+<<<<<<< HEAD
   background-color: #605235;
   color: rgba(220, 228, 220, 0.87);
+=======
+  background-color: #333;
+  color: white;
+>>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
   z-index: 10;
 }
 
@@ -57,7 +70,11 @@ a:hover {
 
 #heading {
   /* Center heading content */
+<<<<<<< HEAD
   display: inline-block;
+=======
+  display: flex;
+>>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
   flex-direction: column;
   margin: 2em;
   justify-content: center;
