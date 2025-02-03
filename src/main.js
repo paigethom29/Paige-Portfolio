@@ -3,27 +3,20 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-<<<<<<< HEAD
   "./Project 1 Small Images on Website/01.jpg",
   "./Project 1 Small Images on Website/02.jpg",
   "./Project 1 Small Images on Website/03.jpg",
   "./Project 1 Small Images on Website/04.jpg",
-=======
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
 ];
 
 const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+  "./Project 2 Small Images/01.png",
+  "./Project 2 Small Images/02.png",
+  "./Project 2 Small Images/03.png",
+  "./Project 2 Small Images/04.png",
+  "./Project 2 Small Images/05.png",
 ];
 
-<<<<<<< HEAD
 const houses = [
   "./houseDrawings/house1.jpg",
   "./houseDrawings/house2.jpg",
@@ -31,8 +24,6 @@ const houses = [
   "./houseDrawings/house4.jpg",
 ];
 
-=======
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
 document.querySelector("#app").innerHTML = `
   <main id="container">
     <section id="heading">
@@ -42,15 +33,9 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-<<<<<<< HEAD
       Project 1: Cadavre Exquis
         <div class="three-model">
           <img src="./Cadavre Equis Animation 1.png" id="model1" alt="model 1 
-=======
-      Model 1
-        <div class="three-model">
-          <div id="model1"></div>
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
         </div>
         <div id="images-description">
           <div id="images">
@@ -60,21 +45,14 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-<<<<<<< HEAD
           <h4 id="description">My Cadavre Exquis relates to how my innate and environmental-induced philosophies shape my worldly values and opinions. It explores the importance of fictional worlds, childlike imagination and creativity. All concepts that should be embraced in the professional world. It is this optimism that shows us of the joys of life and encourages us as designers to approach challenges with a reminder of what we are fighting for.</h4>
-=======
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
         </div>
       </div>
 
       <div id="project-row">
-<<<<<<< HEAD
-      ${/*Model 2
-=======
-      Model 2
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
+      Project 2: Interop(erability)
         <div class="three-model">
+              <img src="./Screenshot 2025-02-02 225744.png"
           <div id="model2"></div>
         </div>
         <div id="images-description">
@@ -86,16 +64,19 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+          <h4 id="description"> THIS ASSIGNMENT SERVED TO STRENGTHEN MY CAPABILITIES WITHIN BOTH RHINO AND BLENDER BY GIVING ME THE CONFIDENCE TO UNDERSTAND AND PROPERLY USE DIFFERENT TYPES OF GEOMETRY. I NOW HAVE A GREATER UNDERSTANDING OF THE CAPABILITIES OF MESHES, SUBD’S AND NURBS AS WELL AS HOW TO BE EFFICIENT IN WORKING WITH THEM.
+
+SWITCHING FROM MESH TO NURBS definitely TAKES MORE COMPUTING POWER AND THEREFORE SLOWS THE WORKFLOW SIGNIFICANTLY. HOWEVER, I ALSO LEARNT THAT NURBS HAVE THE ABILITY TO PERFORM CERTAIN TASKS THAT OTHER GEOMETRIES CANNOT.
+
+A LARGE NUMBER OF MESHES ISN’T JUST HEAVY TO CALCULATE BUT USING SUBD’S OR NURBS ALSO PROVIDE SIMPLER FACES AND CONTROL POINTS TO MANIPULATE IN A MORE PRECISE FASHION. 
+
+IT IS ALSO INTERESTING TO NOTE THE DIFFERENCES IN FILE SIZE, WHILE THE FIRST TWO OBJECTS WEREN’T VERY DIFFERENT IN THIS ASPECT THE FINAL OBJECT EXEMPLIFIED HOW MUCH FILE SIZE CAN EFFECT EFFICIENCY WHILE WORKING.
+
+I ALSO APPRECIATED THE OPPORTUNITY TO PHYSICALLY FABRICATE THE MODEL, AS IT HELPS ME AS A VERY TACTICAL PERSON UNDERSTAND HOW THE COMPUTER CALCULATES GEOMETRIES AND HOW THAT IS TRANSFERRED INTO THE PHYSICAL WORLD - SOMETHING THAT WILL BE VERY IMPORTANT TO UNDERSTAND FOR WHEN I ONE DAY HAVE A BUILT PROJECT.
         </div>
       </div>
-<<<<<<< HEAD
-      */""}
 
       ${/*
-=======
-
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
       <div id="project-row">
       Model 3
         <div class="three-model">
@@ -103,27 +84,18 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-<<<<<<< HEAD
             ${houses
               .map(
                 (house, index) =>
                   `<img src="${house}" alt="house${index + 1}" />`
-=======
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
               )
               .join("")}
           </div>
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
         </div>
       </div>
-<<<<<<< HEAD
       */""}
 
-=======
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
     </section>
 
     <ul id="footer-items">
@@ -140,12 +112,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-<<<<<<< HEAD
 //createThreeScene("#model1", "/3DModels/project1/cube.obj");
 //createThreeScene("#model2", "/3DModels/project2/tree.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
-=======
-createThreeScene("#model1", "/3DModels/project1/cube.obj");
-createThreeScene("#model2", "/3DModels/project2/tree.obj");
-createThreeScene("#model3", "/3DModels/project3/cottage.obj");
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
