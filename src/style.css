@@ -1,18 +1,10 @@
 :root {
   /* Global font, line-height, and colors */
-<<<<<<< HEAD
   font-family: 'Times New Roman', Times, serif
   line-height: 1.5;
   font-weight: 400;
   color: rgba(12, 43, 14, 0.87);
   background-color: #eceae0;
-=======
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
 }
 
 * {
@@ -45,13 +37,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-<<<<<<< HEAD
   background-color: #605235;
   color: rgba(220, 228, 220, 0.87);
-=======
-  background-color: #333;
-  color: white;
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
   z-index: 10;
 }
 
@@ -70,11 +57,7 @@ a:hover {
 
 #heading {
   /* Center heading content */
-<<<<<<< HEAD
   display: inline-block;
-=======
-  display: flex;
->>>>>>> 81e5cd536696198d8d836180a19258c7ac018c6d
   flex-direction: column;
   margin: 2em;
   justify-content: center;
@@ -83,7 +66,7 @@ a:hover {
 
 h1 {
   /* Heading font size */
-  font-size: 2.5em;
+  font-size: 4em;
 }
 
 #projects {
@@ -97,15 +80,15 @@ h1 {
 
 #project-row {
   /* Row layout for projects */
-  display: flex;
-  justify-content: center;
-  padding-top: 5em;
+  display: block;
+  justify-content: flex;
+  padding-top: 8em;
 }
 
 .three-model {
   /* Styling for project models */
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
@@ -121,7 +104,7 @@ h1 {
 
 img {
   /* Image dimensions and margin */
-  height: 120px;
+  height: 80px;
   width: 120px;
   margin: 0.5em;
 }
@@ -129,8 +112,8 @@ img {
 #images {
   /* Center image container */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: column;
+  align-items: column;
   height: 8em;
   margin-bottom: 2em;
 }
@@ -143,16 +126,27 @@ img {
   position: relative;
 }
 
+
 #description {
-  /* Center description content */
+  /* Restrict description height and enable scrolling */
   display: flex;
-  align-items: center;
-  height: 4em;
-  width: 35em;
+   align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  max-height: 8em;  / Changes the size of the text box /
+   width: 35em;
+  overflow-y: scroll;
+   overflow-x: hidden;
   font-weight: 100;
-  margin-left: 2em;
-  margin-top: 3em;
+  margin-left: 0em;
+   margin-top: 0em;
+  padding: 0.5em;
+  background: rgba(0, 0, 0, 0.1); / Changes the color of the background of the text box /
+  border: 1px solid rgba(255, 255, 255, 0); / Changes the color of the border of the text box /
+  box-sizing: border-box;
+  scrollbar-width: none; / If you want to see your scroll bar - just delete this part* /
 }
+
 
 @media screen and (max-width: 768px) {
   #footer-items {

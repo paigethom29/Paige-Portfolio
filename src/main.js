@@ -34,39 +34,61 @@ document.querySelector("#app").innerHTML = `
     <section id="projects">
       <div id="project-row">
       Project 1: Cadavre Exquis
+      </div>
         <div class="three-model">
-          <img src="./Cadavre Equis Animation 1.png" id="model1" alt="model 1 
-        </div>
+           <a href="./Project 1 Small Images on Website/Cadavre Equis Animation 1.png" target="_blank">
+            <img src="./Project 1 Small Images on Website/Cadavre Equis Animation 1.png" id="model1" 
+          alt="Model1Image">
+        </a>
         <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
+            <a href="./Project 1 Small Images on Website/01.jpg" target="_blank">
+    <img src="./Project 1 Small Images on Website/01.jpg" alt="Critical Analysis" />
+  </a>
+  <a href="./Project 1 Small Images on Website/02.jpg" target="_blank">
+    <img src="./Project 1 Small Images on Website/02.jpg" alt="Photo Gallery" />
+  </a>
+  <a href="./Project 1 Small Images on Website/03.jpg" target="_blank">
+    <img src="./Project 1 Small Images on Website/03.jpg" alt="Photo Gallery" />
+  </a>
+  <a href="./Project 1 Small Images on Website/04.jpg" target="_blank">
+    <img src="./Project 1 Small Images on Website/04.jpg" alt="Photo Gallery" />
           </div>
-          <h4 id="description">My Cadavre Exquis relates to how my innate and environmental-induced philosophies shape my worldly values and opinions. It explores the importance of fictional worlds, childlike imagination and creativity. All concepts that should be embraced in the professional world. It is this optimism that shows us of the joys of life and encourages us as designers to approach challenges with a reminder of what we are fighting for.</h4>
+          </div>
+          <h4 id="description"> My Cadavre Exquis relates to how my innate and environmental-induced philosophies shape my worldly values and opinions. It explores the importance of fictional worlds, childlike imagination and creativity. All concepts that should be embraced in the professional world. It is this optimism that shows us of the joys of life and encourages us as designers to approach challenges with a reminder of what we are fighting for.</h4>
         </div>
       </div>
+    </section>
+
+
 
       <div id="project-row">
       Project 2: Interop(erability)
+      </div>
         <div class="three-model">
-              <img src="./Screenshot 2025-02-02 225744.png"
-          <div id="model2"></div>
-        </div>
+           <a href="./Project 2 Small Images/Screenshot 2025-02-02 225744.png" target="_blank">
+            <img src="./Project 2 Small Images/Screenshot 2025-02-02 225744.png" id="model1" 
+          alt="Model1Image">
+        </a>
         <div id="images-description">
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
+            <a href="./Project 2 Small Images/01.png" target="_blank">
+    <img src="./Project 2 Small Images/01.png" alt="Model 1 Image" />
+  </a>
+  <a href="./Project 2 Small Images/02.png" target="_blank">
+    <img src="./Project 2 Small Images/02.png" alt="Model 1 Image" />
+  </a>
+  <a href="./Project 2 Small Images/03.png" target="_blank">
+    <img src="./Project 2 Small Images/03.png" alt="Photo Gallery" />
+  </a>
+  <a href="./Project 2 Small Images/04.png" target="_blank">
+    <img src="./Project 2 Small Images/04.png" alt="Photo Gallery" />
+          </div>
           </div>
           <h4 id="description"> THIS ASSIGNMENT SERVED TO STRENGTHEN MY CAPABILITIES WITHIN BOTH RHINO AND BLENDER BY GIVING ME THE CONFIDENCE TO UNDERSTAND AND PROPERLY USE DIFFERENT TYPES OF GEOMETRY. I NOW HAVE A GREATER UNDERSTANDING OF THE CAPABILITIES OF MESHES, SUBD’S AND NURBS AS WELL AS HOW TO BE EFFICIENT IN WORKING WITH THEM. SWITCHING FROM MESH TO NURBS definitely TAKES MORE COMPUTING POWER AND THEREFORE SLOWS THE WORKFLOW SIGNIFICANTLY. HOWEVER, I ALSO LEARNT THAT NURBS HAVE THE ABILITY TO PERFORM CERTAIN TASKS THAT OTHER GEOMETRIES CANNOT. A LARGE NUMBER OF MESHES ISN’T JUST HEAVY TO CALCULATE BUT USING SUBD’S OR NURBS ALSO PROVIDE SIMPLER FACES AND CONTROL POINTS TO MANIPULATE IN A MORE PRECISE FASHION. IT IS ALSO INTERESTING TO NOTE THE DIFFERENCES IN FILE SIZE, WHILE THE FIRST TWO OBJECTS WEREN’T VERY DIFFERENT IN THIS ASPECT THE FINAL OBJECT EXEMPLIFIED HOW MUCH FILE SIZE CAN EFFECT EFFICIENCY WHILE WORKING. I ALSO APPRECIATED THE OPPORTUNITY TO PHYSICALLY FABRICATE THE MODEL, AS IT HELPS ME AS A VERY TACTICAL PERSON UNDERSTAND HOW THE COMPUTER CALCULATES GEOMETRIES AND HOW THAT IS TRANSFERRED INTO THE PHYSICAL WORLD - SOMETHING THAT WILL BE VERY IMPORTANT TO UNDERSTAND FOR WHEN I ONE DAY HAVE A BUILT PROJECT.
         </div>
       </div>
+ </section>
 
       ${/*
       <div id="project-row">
